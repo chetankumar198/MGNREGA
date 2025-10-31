@@ -1,0 +1,26 @@
+.chart-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.chart-container:hover {
+  transform: scale(1.01);
+}
+
+.chart-container h2 {
+  color: #004aad;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.no-data {
+  color: #777;
+  font-size: 1rem;
+  margin-top: 30px;
+}

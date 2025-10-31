@@ -1,0 +1,25 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  background-color: #eef3f9;
+  margin: 0;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  color: #222;
+  padding: none;
+  height: auto;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}

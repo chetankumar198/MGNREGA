@@ -1,0 +1,38 @@
+.filters-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.filters-container input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #cfd8dc;
+  border-radius: 10px;
+  outline: none;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.filters-container input:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 8px rgba(33, 150, 243, 0.3);
+}
+
+.filters-container button {
+  background: linear-gradient(135deg, #2196f3, #21cbf3);
+  color: white;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filters-container button:hover {
+  background: linear-gradient(135deg, #1976d2, #00bcd4);
+  transform: translateY(-2px);
+}
